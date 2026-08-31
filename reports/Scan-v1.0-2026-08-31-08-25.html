@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Streamline AI Competitive Scan v1.0</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+         background: #0f1117; color: #e2e8f0; padding: 32px 16px; line-height: 1.6; }
+  .container { max-width: 1100px; margin: 0 auto; }
+  h1 { font-size: 1.8rem; color: #7dd3fc; border-bottom: 2px solid #1e3a5f;
+       padding-bottom: 12px; margin: 0 0 24px; }
+  h2 { font-size: 1.2rem; color: #94a3b8; text-transform: uppercase; letter-spacing: .05em;
+       margin: 32px 0 12px; border-left: 3px solid #3b82f6; padding-left: 10px; }
+  h3 { font-size: 1rem; color: #7dd3fc; margin: 20px 0 8px; }
+  p { margin-bottom: 10px; color: #cbd5e1; }
+  a { color: #60a5fa; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  strong { color: #f1f5f9; }
+  hr { border: none; border-top: 1px solid #1e293b; margin: 24px 0; }
+  em { color: #94a3b8; font-style: normal; font-size: .85rem; }
+  table { width: 100%; border-collapse: collapse; margin: 0; font-size: .875rem; }
+  .table-wrap { overflow-x: auto; max-width: 100%; margin: 12px 0 20px; -webkit-overflow-scrolling: touch; }
+  th { background: #1e293b; color: #94a3b8; text-align: left;
+       padding: 10px 12px; border-bottom: 2px solid #334155; font-weight: 600; }
+  td { padding: 9px 12px; border-bottom: 1px solid #1e293b; vertical-align: top; overflow-wrap: anywhere; word-break: break-word; }
+  td a { word-break: break-all; }
+  tr:hover td { background: #111827; }
+  ul, ol { padding-left: 24px; margin-bottom: 12px; }
+  li { color: #cbd5e1; margin-bottom: 6px; }
+  .green  { color: #4ade80; }
+  .yellow { color: #fbbf24; }
+  .red    { color: #f87171; }
+  .up     { color: #4ade80; font-weight: bold; }
+  .down   { color: #f87171; font-weight: bold; }
+  .warn   { color: #fbbf24; font-weight: bold; }
+  .score-crit { color: #f87171; font-weight: bold; font-size: 1.05rem; }
+  .score-warn { color: #fbbf24; font-weight: bold; }
+  .score-ok   { color: #4ade80; }
+</style>
+</head>
+<body>
+<div class="container">
+<div id='archive-link' style='display:flex;justify-content:flex-end;margin-bottom:8px'><a href='/Streamline-Competitive-Scan/archive.html?d=2026-08-31' target='_top' style='font-size:.9rem;color:#60a5fa;text-decoration:none'>📑 Report archive →</a></div>
+<script>if(window.self!==window.top){var a=document.getElementById('archive-link');if(a)a.style.display='none';}</script>
+<h1>Streamline — AI Competitive Scan — 24 Aug – 31 Aug 2026</h1>
+
+<hr>
+
+<h2>1. Takeaways</h2>
+<ul><li><strong>Nokia and Blue Planet (Ciena) now ship <em>agentic</em> fixed-network AI</strong>, not just assistive tools — this narrows our closed-loop whitespace but confirms demand for autonomous fiber/broadband ops. No LLM fiber <em>design</em> agents yet.</li><li><strong>Netcracker’s Agentic AI Solution wins awards and deploys with Google Fiber</strong>, proving multi-agent orchestration + MCP/A2A is production-ready in telecom; their ROI framework is a monetization blueprint for us.</li><li><strong>Salesforce Agentforce adoption is contested</strong>: partners report limited revenue, but their new <em>pay-per-resolution</em> Help Agent validates outcome-based pricing for agent actions.</li><li><strong>IQGeo’s whitespace holds</strong>: NetLux AI (visual) and Comsof Fiber (algorithmic design) remain non-LLM; no competitor ships conversational design/asset agents on fiber data.</li><li><strong>ServiceNow’s AI revenue crosses $1B</strong> with non-seat deals at 50% of new business, reinforcing consumption-based pricing as a viable model for enterprise AI.</li><li><strong>Fiber-design whitespace remains unchallenged</strong>: searches return only academic LLM work (photonic-crystal fiber) or network-ops agents (Nokia/Google), not commercial LLM fiber design.</li><li><strong>Render Networks hires a CTO to scale AI</strong>, signaling non-AI incumbents are investing in agentic capabilities — watch for their next moves.</li></ul>
+<hr>
+
+<h2>2. AI landscape</h2>
+
+<div class="table-wrap"><table><thead><tr><th>Vendor</th><th>AI level</th><th>Shipping today</th><th>Relevance to Streamline</th><th>Confirmed this run?</th></tr></thead><tbody><tr><td>ServiceNow</td><td>5/5</td><td>Otto (one AI across chat/voice/mobile/web); Agent Studio (NL agent build); Agent Advisor (ranks use cases, tests on real data pre-golive); Control Tower; MCP server exposing governed actions to external agents; consumption billing. Prod: Rolls-Royce 54% deflection ○</td><td>UX + monetization playbook</td><td>→</td></tr><tr><td>Salesforce Agentforce</td><td>5/5</td><td>Agent Script hybrid reasoning (deterministic steps always run, LLM handles nuance); configurable HITL approvals; Trust Layer (masking, zero retention, audit); $2/conversation or $125-650/user/mo ○; new Help Agent charges <strong>only for resolutions</strong> ✔ ["Only Charges for Resolutions" — https://news.google.com/rss/articles/CBMigAFBVV95cUxPZVRVaWpYRzZzWGVzZlJXOS1TYWcyUTU4QkZFNHQ2ZTRVd2hpcGd2VGhIUVZvdXJTTTVxS1JvOFNsTDI4eC1md1hUUklVMjRFcGRBbkUyN0tMcGJjMEZDYTdQdkpESGlfc18ySjV1TGhUVXV4NmFVcmRxa1ZyZnF0Nw]</td><td>Architecture + HITL + pricing reference</td><td>✔</td></tr><tr><td>IQGeo</td><td>4/5</td><td>Visual AI "NetLux AI" (ex-Deepomatic, acq. Jul 2025, rebranded Feb 2026): capture-time photo validation for fiber construction/connection; <strong>30,000+ field workers use NetLux AI</strong> ✔ ["30,000+ field workers use NetLux AI" — https://www.iqgeo.com/products/netlux-ai]; <strong>20M ops/yr, &lt;2s/photo</strong> ✔ ["20M field operations analyzed every year &lt;2 seconds to analyze a photo" — https://www.iqgeo.com/products/netlux-ai]; prod at Bouygues, Swisscom, CityFibre ○; auto-acceptance -&gt; contractor payment. Comsof Fiber (acq. Aug 2022): <strong>algorithmic auto-design, planning time -90%, build cost -10%</strong> ✔ ["Reduce planning and design time by up to 90%... Save up to 10% on overall cost to build" — https://www.iqgeo.com/products/comsof-fiber]. No LLM layer anywhere.</td><td>Direct competitor; owns the full fiber-AI stack via M&amp;A; LLM-native agents remain our open angle</td><td>✔</td></tr><tr><td>Netcracker</td><td>4/5</td><td>GenAI Telco Solution: <strong>40+ prebuilt scenarios</strong> ○; Trust Gateway (intent -&gt; prompt enrichment from BSS/OSS, masking, audit); agentic platform with MCP + A2A; per-agent KPI dashboards. <strong>Agentic AI Solution wins AI Excellence Award</strong> ✔ ["Netcracker Honored With Two Awards for Agentic AI Innovation" — https://news.google.com/rss/articles/CBMi4gFBVV95cUxOME9uWllpaDQ1b0pQUFZMd0o3QmtfWFVBNHRibWNObUFuSFVJU0RvUWJSdXZwVDROSmZjLUltdXJPZWwxOTU0OTdQMWYzamYxdjdoTHZPTE9xaFZkdlZyWE02eWJkQVJOb20yU2lQVWdFa2Zia0RMNk9HcHVxSDRCZzlCZmhHeFJkam1zbE1rVUYzTU1ZNVpuNWd6WDRpUk1LOVgxbVdZc04tOW5fRWhiY3M3Vll3d2lCZVJFZFVwYzQ2MFh2S3BsX0R4dGNUcXVTWTV4dzV4czZNSjhtdkJPeGVn]; <strong>TM Forum award for Google Fiber + Netcracker "AI-Native, ODA-Driven Operations"</strong> ✔ ["TM Forum award for Google Fiber + Netcracker" — https://news.google.com/rss/articles/CBMi4gFBVV95cUxOME9uWllpaDQ1b0pQUFZMd0o3QmtfWFVBNHRibWNObUFuSFVJU0RvUWJSdXZwVDROSmZjLUltdXJPZWwxOTU0OTdQMWYzamYxdjdoTHZPTE9xaFZkdlZyWE02eWJkQVJOb20yU2lQVWdFa2Zia0RMNk9HcHVxSDRCZzlCZmhHeFJkam1zbE1rVUYzTU1ZNVpuNWd6WDRpUk1LOVgxbVdZc04tOW5fRWhiY3M3Vll3d2lCZVJFZFVwYzQ2MFh2S3BsX0R4dGNUcXVTWTV4dzV4czZNSjhtdkJPeGVn]</td><td>Agent catalog, governance, inter-agent protocol blueprint</td><td>✔</td></tr><tr><td>Blue Planet (Ciena)</td><td>4/5</td><td>Network digital twin; AI service assurance; service-impact prediction; topology correlation; intent-based automation. <strong>AI agents cut 5G slice design time to minutes with Telefonica Deutschland</strong> ✔ ["AI agents cut 5G slice design time to minutes" — https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZ3N2MjVOUERtNlREeXR5djhIOEtLQURudjhIVUpQNGRSczFSbmlFTEpFSkFoQlY3NkxRYU1rR2Z3THlTbTNjdUdfMUFGTlRYbkJMNmRpOF9DNGNFOXFKOVdmOXhaaDd0RFIxdnltZWlheExIQjI3Vm1WMTV5anUxY2NCSHYyWEY2WEFxZ19WdUQ5ektBYjlyNjNtUUl2YmxTS3FqSXFHR2ctU0xFcFhkaWZFU3Y0VEZyZk9OX09hMGZsbl83UEZoa2tnWnBlUjBydm96X2Q1Nkc]; <strong>Launched Blue Planet Configuration and Change Management (CCM)</strong> ✔ ["Launches AI-Driven Configuration Management for Autonomous Networks" — https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZ3N2MjVOUERtNlREeXR5djhIOEtLQURudjhIVUpQNGRSczFSbmlFTEpFSkFoQlY3NkxRYU1rR2Z3THlTbTNjdUdfMUFGTlRYbkJMNmRpOF9DNGNFOXFKOVdmOXhaaDd0RFIxdnltZWlheExIQjI3Vm1WMTV5anUxY2NCSHYyWEY2WEFxZ19WdUQ5ektBYjlyNjNtUUl2YmxTS3FqSXFHR2ctU0xFcFhkaWZFU3Y0VEZyZk9OX09hMGZsbl83UEZoa2tnWnBlUjBydm96X2Q1Nkc]</td><td>Impact prediction -&gt; asset agent extension</td><td>✔</td></tr><tr><td>Huawei iMaster NCE</td><td>4/5</td><td>AI Copilot in NMS; RCA; predictive fault mgmt; intent-driven self-healing workflows. <strong>Deployed industry's first campus network agent with Tsinghua University</strong> ✔ ["Deploy the Industry's First Campus Network Agent" — https://news.google.com/rss/articles/CBMilAFBVV95cUxQTkxsT1h1cUlhVmFQU1E5WW1JT2tEZWZPT3pWdkItWnB3alAyVnNOVk0yangtcE54OV9kbDB1Z0FOTzF2VjR0UncybTl1aXZtd1kwYUc0Z3h6bE5ZOGUxYVZjblRIVXdpdUpXbG5fOFhDXzVRbTBXN0d4ZHNhRnJwNmZmMWNVRjhxNHhOSWRfR3lFNkt3]</td><td>Closed-loop north star</td><td>✔</td></tr><tr><td>Nokia Altiplano</td><td>4/5</td><td>AI ops assistant; predictive maintenance; capacity optimization; SLA prediction; autonomous optimization. <strong>Launched agentic AI for fixed networks, targeting $6.2B market by 2030</strong> ✔ ["launched agentic AI for FIXED networks, targeting $6.2B market by 2030" — https://news.google.com/rss/articles/CBMi8gFBVV95cUxOZUJQUWQ5d3JEc2ZLeXh2Q3lybTJYUWVfcU5ZdGtzVFM5aVlBU2F0endGOFBlMmtlNWljOTJGTjc0NzV5MVhyN2czNVNMMVhpVzhLcDlfTEx4alBJalk0NVpLWE1DUm14cU40RHo4dGliVEd2cm4zdXNJTnRUTHo0a2dORzlYUVJpLUtMSlhuNmlvRHFmT2NBemVBSzdvY2s4UUZsQ3hkSE12OFNXZnNudlduWDc2OGlfbEVjWDIyUFFKSWxyVXNSNVlSc0N3ZWtwOUs0amY5NDZMVGVMRGFYMV9IdXVreDA3VVZNUXdFcG9aQQ]; <strong>Embeds agentic AI across fixed-network platforms</strong> ✔ ["Nokia embeds agentic AI across its fixed network platforms" — https://news.google.com/rss/articles/CBMiakFVX3lxTE50X0hHMTZVcGVMZF9YUlFZaHY4TmE2YkpyZ3hreExwcVRQQkZWT1FNNXZFMG90dHQ2WVpZTEZjWlhsSEdLNkQzUk90ZE5Jbi16US1xTU1YdFViRnVUVmY3ZGp4Tjd4UVNUWHc]</td><td>Closed-loop north star (broadband)</td><td>✔</td></tr><tr><td>Bentley</td><td>3/5</td><td>ProjectWise semantic AI search + instant doc summaries; NL model interrogation; optioneering. Fiber line (OpenComms): no AI yet. <strong>Redoubles AI investment; new AI apps + collaborations at YII 2025</strong> ✔ ["Redoubles AI Investment" — https://news.google.com/rss/articles/CBMilwFBVV95cUxNblJQWThOeFhnYW5FTVduR2daeTZwdmExdlJ3UDJsNnpDbEFrYV9mbERBZkljOWRDZUV6ak9xNjJ6dS1xeGpld3BySkV6TnFOSEZtN0pkbGZGSEZsMVl0dS1VTHg5dG9vdF9EUjRYYjBONDlkcDY4VE92NU9MTl9NMHVLMHVLVWZkODlydmhySDI1LTBkVExV]</td><td>NL-query pattern = our Quick Action; first-in-segment window</td><td>✔</td></tr><tr><td>Comarch</td><td>3/5</td><td>Predictive maintenance; anomaly detection; alarm correlation; automated ticket prioritization; ops chatbot. <strong>Building sovereign AI foundation for autonomous networks</strong> ✔ ["Building the Sovereign AI Foundation for Autonomous Networks" — https://news.google.com/rss/articles/CBMi0gFBVV95cUxQVTZBQWNJSjhTdG5EM1VuN3hnUDdmbjNIN3NSeF9SeHEyeUdPN0ppaVV0bEdxOFMwUy1OT2thMk9kQTVXN0hnbWtBU3RMblRoZFRCaDIycWxiTWc3Yl9LZmlXcjFkMjdBNGtqSmZIeEJ0MTE1dWxJZ3lIUk5mUklud0pBQnFTTHZMWHBRUUdaX1FQZVBMVkF2R1VxOUd2Z0ZSZXo3aUpTYzNlM2w4eUd1a3FvdXR1RFBQbnV2ajJsZzg0RkdSbjNjdW41RzRKbFQxX3c]</td><td>Ticket prioritization = cheap win (Incident/Notifications)</td><td>✔</td></tr></tbody></table></div>
+<strong>Score changes this run:</strong> none this run
+
+<hr>
+
+<h2>3. What changed this period</h2>
+
+<strong>ServiceNow</strong>:
+<p>ServiceNow’s AI revenue crossed $1B with non-seat deals now representing 50% of new business, reinforcing consumption-based pricing as a viable model for enterprise AI. This validates our planned consumption billing per agent action. Their expanded AI Control Tower for cross-enterprise AI governance and the emphasis on "governed AI reaching the frontline" aligns with our orchestrator + hidden agents pattern. <strong>Affected differentiator:</strong> Monetization engine. <strong>Backlog slot:</strong> NEXT (Agent catalog + consumption metering).</p>
+<p>Signals:</p>
+<ul><li>["AI Revenue Crosses $1B as Non-Seat Deals Hit 50% of New Business" — https://news.google.com/rss/articles/CBMivwFBVV95cUxPM1ZaM050Umd4YkxjUUdLMDlpYVhFQy0zckh1dVZTQVhMdmh4NUJLMzNvOVd3LWlBN1VLY2ItNlM5QkxPZy10WFVLSDV4RFFDOFl1ZFlvVDNtYm1ITTBXVGtsWnJuZnQxcWFBN3NTS21SNzFScWpKbGZ0elc1Wjdpb0JRaUxGSHVGMHEyMXZuS1Vvb1RoTzFZVzgxNnlNb1JDRFNTYWlLRnY1YTR0ZjNJM0FoTkc1MUVMOVBGSldPVQ]</li><li>["ServiceNow expands AI Control Tower to discover, observe, govern, secure, and measure AI" — https://news.google.com/rss/articles/CBMiqgJBVV95cUxNTHhFTnp0R2xvUU9JdlB3WXBiRjVsSXVGNlhFdGc4bnE4Mko2RWtCSzdVV1BwMkpfeVVtNVpVUHBseEhlM3ptWm9ZcnllSUVqNXJsOHp6R1RhUmxBZ3Nqendka1JydWFLR01IZWxDN01VWU0zYjdxNHczUjN0Rm9pUXd6VWNKb0ZmeEFCRkMxeWh0TnVBNDF3SmlnMExlUHVHNXFnc20xajF2elZVQTVIS2wyWFJTM1pOb1ctbno4YlNmSUhTLVZLTjNMSWt0WEpvLVR1dEw2M19jb3EzSEtIdlg5WHRKbjJ1YlU0bDg3bG5JeklpX3VncVdWbEc3aVZFMVB3MDQ0ZnE5LUxmcWF5RXNtWUFoaGdBSFlnb0hxMHllV0F1ZllDR2Vn]</li></ul>
+<strong>Salesforce Agentforce</strong>:
+<p>Analysts report limited revenue from Agentforce, but Salesforce launched a Help Agent with <strong>pay-per-resolution pricing</strong>, a model we should evaluate for our own agent actions. This outcome-based approach could align with our consumption pricing strategy. <strong>Affected differentiator:</strong> Monetization engine. <strong>Backlog slot:</strong> NEXT (Agent catalog + consumption metering).</p>
+<p>Signals:</p>
+<ul><li>["partners not seeing meaningful revenue from Agentforce AI platform" — https://news.google.com/rss/articles/CBMi2AFBVV95cUxOTm1aQk41czFKRnRPX2tSbUhjSk1nNjZPNFB4Ti05Q2pyUzQ4Y3pRR3NJVlJNV1BqZFRUcXRMOXU2eERPVnhFLTh0UWFLV1hPbUZTMHJ2aHNYYW1qWUxQR0VOQXJ2S2pDV3FndUQ3ZjJGMG5HX3FjNmFUZDlSLW4ydVF4Mm1TMjRhbmZLNHAyV1QzZVEyeXVhZklxUjBoYWQyUVhEaTJibWk1b3dqVmtCRDZEaWkwbTVWYXV5aGYtckVDTGtoVWpVeUtOaC10aGVIOXlSZFNQWjY]</li><li>["Launches Agentforce Help Agent That Deploys in Minutes and Only Charges for Resolutions" — https://news.google.com/rss/articles/CBMigAFBVV95cUxPZVRVaWpYRzZzWGVzZlJXOS1TYWcyUTU4QkZFNHQ2ZTRVd2hpcGd2VGhIUVZvdXJTTTVxS1JvOFNsTDI4eC1md1hUUklVMjRFcGRBbkUyN0tMcGJjMEZDYTdQdkpESGlfc18ySjV1TGhUVXV4NmFVcmRxa1ZyZnF0Nw]</li></ul>
+<strong>IQGeo</strong>:
+<p>No new LLM-based capabilities; NetLux AI and Comsof Fiber remain focused on visual AI and algorithmic design, respectively. Their <strong>30,000+ field workers and 20M ops/yr</strong> metrics for NetLux AI confirm the scale of their visual validation deployment, which we aim to match with zero-shot VLM. <strong>Affected differentiator:</strong> Zero-shot visual validation. <strong>Backlog slot:</strong> NOW (Zero-shot image validation MVP).</p>
+<p>Signals:</p>
+<ul><li>["30,000+ field workers use NetLux AI" — https://www.iqgeo.com/products/netlux-ai]</li><li>["20M field operations analyzed every year &lt;2 seconds to analyze a photo" — https://www.iqgeo.com/products/netlux-ai]</li><li>["Reduce planning and design time by up to 90%... Save up to 10% on overall cost to build" — https://www.iqgeo.com/products/comsof-fiber]</li></ul>
+<strong>Netcracker</strong>:
+<p>Their <strong>Agentic AI Solution won an AI Excellence Award</strong> and a <strong>TM Forum award for Google Fiber + Netcracker "AI-Native, ODA-Driven Operations"</strong>, proving multi-agent orchestration and MCP/A2A support are production-ready in telecom. Their ROI framework and governance model are blueprints for our own agent platform. <strong>Affected differentiator:</strong> Orchestrator + hidden specialized agents. <strong>Backlog slot:</strong> NOW (Quick Action + orchestrator + 2-3 global agents).</p>
+<p>Signals:</p>
+<ul><li>["Netcracker Honored With Two Awards for Agentic AI Innovation to Accelerate Telecom Adoption" — https://news.google.com/rss/articles/CBMi4gFBVV95cUxOME9uWllpaDQ1b0pQUFZMd0o3QmtfWFVBNHRibWNObUFuSFVJU0RvUWJSdXZwVDROSmZjLUltdXJPZWwxOTU0OTdQMWYzamYxdjdoTHZPTE9xaFZkdlZyWE02eWJkQVJOb20yU2lQVWdFa2Zia0RMNk9HcHVxSDRCZzlCZmhHeFJkam1zbE1rVUYzTU1ZNVpuNWd6WDRpUk1LOVgxbVdZc04tOW5fRWhiY3M3Vll3d2lCZVJFZFVwYzQ2MFh2S3BsX0R4dGNUcXVTWTV4dzV4czZNSjhtdkJPeGVn]</li></ul>
+<strong>Blue Planet (Ciena)</strong>:
+<p>Their <strong>AI agents cut 5G slice design time to minutes with Telefonica Deutschland</strong>, and they launched <strong>Blue Planet Configuration and Change Management (CCM)</strong>. This demonstrates agentic service design is now shipping, not roadmap, and validates our own multi-agent orchestration approach. <strong>Affected differentiator:</strong> Orchestrator + hidden specialized agents. <strong>Backlog slot:</strong> NOW (Quick Action + orchestrator).</p>
+<p>Signals:</p>
+<ul><li>["AI agents cut 5G slice design time to minutes" — https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZ3N2MjVOUERtNlREeXR5djhIOEtLQURudjhIVUpQNGRSczFSbmlFTEpFSkFoQlY3NkxRYU1rR2Z3THlTbTNjdUdfMUFGTlRYbkJMNmRpOF9DNGNFOXFKOVdmOXhaaDd0RFIxdnltZWlheExIQjI3Vm1WMTV5anUxY2NCSHYyWEY2WEFxZ19WdUQ5ektBYjlyNjNtUUl2YmxTS3FqSXFHR2ctU0xFcFhkaWZFU3Y0VEZyZk9OX09hMGZsbl83UEZoa2tnWnBlUjBydm96X2Q1Nkc]</li><li>["Launches AI-Driven Configuration Management for Autonomous Networks" — https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZ3N2MjVOUERtNlREeXR5djhIOEtLQURudjhIVUpQNGRSczFSbmlFTEpFSkFoQlY3NkxRYU1rR2Z3THlTbTNjdUdfMUFGTlRYbkJMNmRpOF9DNGNFOXFKOVdmOXhaaDd0RFIxdnltZWlheExIQjI3Vm1WMTV5anUxY2NCSHYyWEY2WEFxZ19WdUQ5ektBYjlyNjNtUUl2YmxTS3FqSXFHR2ctU0xFcFhkaWZFU3Y0VEZyZk9OX09hMGZsbl83UEZoa2tnWnBlUjBydm96X2Q1Nkc]</li></ul>
+<strong>Nokia Altiplano</strong>:
+<strong>Launched agentic AI for fixed networks, targeting a $6.2B market by 2030</strong>, and <strong>embedded agentic AI across its fixed-network platforms</strong>. This confirms the shift from assistive AI to autonomous operations in broadband, aligning with our closed-loop north star. <strong>Affected differentiator:</strong> Closed-loop self-healing. <strong>Backlog slot:</strong> LATER.
+<p>Signals:</p>
+<ul><li>["launched agentic AI for FIXED networks, targeting $6.2B market by 2030" — https://news.google.com/rss/articles/CBMi8gFBVV95cUxOZUJQUWQ5d3JEc2ZLeXh2Q3lybTJYUWVfcU5ZdGtzVFM5aVlBU2F0endGOFBlMmtlNWljOTJGTjc0NzV5MVhyN2czNVNMMVhpVzhLcDlfTEx4alBJalk0NVpLWE1DUm14cU40RHo4dGliVEd2cm4zdXNJTnRUTHo0a2dORzlYUVJpLUtMSlhuNmlvRHFmT2NBemVBSzdvY2s4UUZsQ3hkSE12OFNXZnNudlduWDc2OGlfbEVjWDIyUFFKSWxyVXNSNVlSc0N3ZWtwOUs0amY5NDZMVGVMRGFYMV9IdXVreDA3VVZNUXdFcG9aQQ]</li><li>["Nokia embeds agentic AI across its fixed network platforms" — https://news.google.com/rss/articles/CBMiakFVX3lxTE50X0hHMTZVcGVMZF9YUlFZaHY4TmE2YkpyZ3hreExwcVRQQkZWT1FNNXZFMG90dHQ2WVpZTEZjWlhsSEdLNkQzUk90ZE5Jbi16US1xTU1YdFViRnVUVmY3ZGp4Tjd4UVNUWHc]</li></ul>
+<strong>Huawei iMaster NCE</strong>:
+<strong>Deployed the industry's first campus network agent with Tsinghua University</strong>, demonstrating closed-loop autonomy in enterprise networks. This reinforces the viability of our own closed-loop aspirations. <strong>Affected differentiator:</strong> Closed-loop self-healing. <strong>Backlog slot:</strong> LATER.
+<p>Signals:</p>
+<ul><li>["Deploy the Industry's First Campus Network Agent" — https://news.google.com/rss/articles/CBMilAFBVV95cUxQTkxsT1h1cUlhVmFQU1E5WW1JT2tEZWZPT3pWdkItWnB3alAyVnNOVk0yangtcE54OV9kbDB1Z0FOTzF2VjR0UncybTl1aXZtd1kwYUc0Z3h6bE5ZOGUxYVZjblRIVXdpdUpXbG5fOFhDXzVRbTBXN0d4ZHNhRnJwNmZmMWNVRjhxNHhOSWRfR3lFNkt3]</li></ul>
+<strong>Bentley</strong>:
+<strong>Redoubles AI investment</strong> and advances infrastructure AI with new apps and collaborations, confirming demand for NL-query and semantic search in engineering workflows. This aligns with our Quick Action and global agents. <strong>Affected differentiator:</strong> NL-query pattern. <strong>Backlog slot:</strong> NOW (Quick Action + orchestrator).
+<p>Signals:</p>
+<ul><li>["Redoubles AI Investment" — https://news.google.com/rss/articles/CBMilwFBVV95cUxNblJQWThOeFhnYW5FTVduR2daeTZwdmExdlJ3UDJsNnpDbEFrYV9mbERBZkljOWRDZUV6ak9xNjJ6dS1xeGpld3BySkV6TnFOSEZtN0pkbGZGSEZsMVl0dS1VTHg5dG9vdF9EUjRYYjBONDlkcDY4VE92NU9MTl9NMHVLMHVLVWZkODlydmhySDI1LTBkVExV]</li></ul>
+<strong>Comarch</strong>:
+<strong>Building the sovereign AI foundation for autonomous networks</strong>, signaling a focus on trusted, compliant agentic systems. Their ticket prioritization remains a low-effort, high-visibility win for us. <strong>Affected differentiator:</strong> Ticket prioritization. <strong>Backlog slot:</strong> NEXT (Incident/Notifications).
+<p>Signals:</p>
+<ul><li>["Building the Sovereign AI Foundation for Autonomous Networks" — https://news.google.com/rss/articles/CBMi0gFBVV95cUxQVTZBQWNJSjhTdG5EM1VuN3hnUDdmbjNIN3NSeF9SeHEyeUdPN0ppaVV0bEdxOFMwUy1OT2thMk9kQTVXN0hnbWtBU3RMblRoZFRCaDIycWxiTWc3Yl9LZmlXcjFkMjdBNGtqSmZIeEJ0MTE1dWxJZ3lIUk5mUklud0pBQnFTTHZMWHBRUUdaX1FQZVBMVkF2R1VxOUd2Z0ZSZXo3aUpTYzNlM2w4eUd1a3FvdXR1RFBQbnV2ajJsZzg0RkdSbjNjdW41RzRKbFQxX3c]</li></ul>
+<strong>Fiber AI whitespace</strong>:
+<p>Searches for "fiber AI design agent" return <strong>only academic work</strong> (e.g., Nature, AZoOptics on photonic-crystal fiber) and network-ops agents (Nokia/Google), <strong>not LLM fiber design/asset agents</strong>. Our lead differentiator remains uncontested commercially. <strong>Affected differentiator:</strong> LLM-based auto-design of fiber layouts.</p>
+<p>Signals:</p>
+<ul><li>["fiber network AI design agent" returns only academic work — https://news.google.com/rss/search?q=fiber+network+AI+design+agent+OR+LLM+fiber+planning]</li></ul>
+<strong>Render Networks</strong>:
+<p>Hired a <strong>CTO to scale AI and platform architecture</strong>, indicating non-AI incumbents are investing in agentic capabilities. This suggests potential future competition in fiber management AI. <strong>Affected differentiator:</strong> Orchestrator + hidden specialized agents. <strong>Backlog slot:</strong> Watchlist.</p>
+<p>Signals:</p>
+<ul><li>["Render Networks Names John Sullivan CTO to Scale AI and Platform Architecture" — https://news.google.com/rss/articles/CBMitwFBVV95cUxQQUNZWGUwbnNaVkNKdkYyT2R3N2ItLXU1YXFHN0JIV25fY2p4VjRQQXM0cWJsUVBUdmhhcHl1U05ETk5QVlBKQ0wtT3JkY1hwWktCR2RhMjdPbW9idU8zY19UYjlvUkloWVBuN0RBOGllTjNxM1hSN18tcHZwRkRLX1dUbW4ybnlydEYwTE8zWXNhaWZNV3JqUlVGU2tHcEx5SXpidlpBaDFWbjBIa2d1aWJpS1FPQ1U]</li></ul>
+<hr>
+
+<h2>4. What to steal — per vendor</h2>
+<strong>IQGeo</strong>:
+<ul><li>Capture-time validation loop (NetLux): photo analyzed in &lt;2s as taken -&gt; technician fixes on-site -&gt; auto-acceptance triggers contractor payment. Metric to copy: First Time Right rate.</li><li>Their design automation (Comsof) is deterministic optimization: polygon in -&gt; lowest-cost layout + BOM out. Our LLM design must show what theirs can't: reasoning, alternatives, dialogue on the map.</li><li>M&amp;A pattern (Comsof 2022, Deepomatic 2025): they buy capabilities; nothing LLM-native shipped yet.</li></ul>
+<strong>Bentley</strong>:
+<ul><li>NL interrogation of the model + AI search with instant summaries = our Quick Action + global record/grid/dashboard agents. Proven demand outside fiber; their fiber line hasn't caught up.</li></ul>
+<strong>Netcracker</strong>:
+<ul><li>Agent catalog + per-agent KPI/consumption dashboard = management view + billing meter in one artifact.</li><li>Trust Gateway pattern: log intent, retrieved data, and rationale by default in the orchestrator.</li><li>MCP + A2A support = direct validation of our inter-agent protocol work.</li></ul>
+<strong>Blue Planet / Comarch / Huawei / Nokia</strong>:
+<ul><li>Blue Planet: service-impact prediction — asset agent answers "which services/customers does this faulty asset affect".</li><li>Comarch: AI ticket prioritization — low-effort, high-visibility for Incident/Notifications.</li><li>Huawei/Nokia: closed</li></ul>
+<hr>
+<em>Generated: 2026-08-31 08:25 UTC | Sources: vendor pages + Mistral Large | Streamline AI Competitive Scan v1.0</em>
+<hr>
+</div>
+</body>
+</html>
