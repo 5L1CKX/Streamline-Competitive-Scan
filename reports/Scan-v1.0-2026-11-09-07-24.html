@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Streamline AI Competitive Scan v1.0</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+         background: #0f1117; color: #e2e8f0; padding: 32px 16px; line-height: 1.6; }
+  .container { max-width: 1100px; margin: 0 auto; }
+  h1 { font-size: 1.8rem; color: #7dd3fc; border-bottom: 2px solid #1e3a5f;
+       padding-bottom: 12px; margin: 0 0 24px; }
+  h2 { font-size: 1.2rem; color: #94a3b8; text-transform: uppercase; letter-spacing: .05em;
+       margin: 32px 0 12px; border-left: 3px solid #3b82f6; padding-left: 10px; }
+  h3 { font-size: 1rem; color: #7dd3fc; margin: 20px 0 8px; }
+  p { margin-bottom: 10px; color: #cbd5e1; }
+  a { color: #60a5fa; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  strong { color: #f1f5f9; }
+  hr { border: none; border-top: 1px solid #1e293b; margin: 24px 0; }
+  em { color: #94a3b8; font-style: normal; font-size: .85rem; }
+  table { width: 100%; border-collapse: collapse; margin: 0; font-size: .875rem; }
+  .table-wrap { overflow-x: auto; max-width: 100%; margin: 12px 0 20px; -webkit-overflow-scrolling: touch; }
+  th { background: #1e293b; color: #94a3b8; text-align: left;
+       padding: 10px 12px; border-bottom: 2px solid #334155; font-weight: 600; }
+  td { padding: 9px 12px; border-bottom: 1px solid #1e293b; vertical-align: top; overflow-wrap: anywhere; word-break: break-word; }
+  td a { word-break: break-all; }
+  tr:hover td { background: #111827; }
+  ul, ol { padding-left: 24px; margin-bottom: 12px; }
+  li { color: #cbd5e1; margin-bottom: 6px; }
+  .green  { color: #4ade80; }
+  .yellow { color: #fbbf24; }
+  .red    { color: #f87171; }
+  .up     { color: #4ade80; font-weight: bold; }
+  .down   { color: #f87171; font-weight: bold; }
+  .warn   { color: #fbbf24; font-weight: bold; }
+  .score-crit { color: #f87171; font-weight: bold; font-size: 1.05rem; }
+  .score-warn { color: #fbbf24; font-weight: bold; }
+  .score-ok   { color: #4ade80; }
+</style>
+</head>
+<body>
+<div class="container">
+<div id='archive-link' style='display:flex;justify-content:flex-end;margin-bottom:8px'><a href='/Streamline-Competitive-Scan/archive.html?d=2026-11-09' target='_top' style='font-size:.9rem;color:#60a5fa;text-decoration:none'>📑 Report archive →</a></div>
+<script>if(window.self!==window.top){var a=document.getElementById('archive-link');if(a)a.style.display='none';}</script>
+<h1>Streamline — AI Competitive Scan — 02 Nov – 09 Nov 2026</h1>
+
+<h2>1. Takeaways</h2>
+<ul><li>Nothing overturned our baseline strategic thesis: major telco/OEM vendors are shipping agentic AI and governed platforms, but we still see no commercial vendor shipping an LLM-native fiber auto-design agent (standing whitespace).  </li><li>ServiceNow continued to expand governance and an enterprise AI catalog (AI Passport), reinforcing the enterprise-governance playbook we should copy for agent packaging. ✔["AI Passport and expanded governance capabilities" — https://news.google.com/rss/search?q=ServiceNow%20AI%20agents&amp;hl=en-US&amp;gl=US&amp;ceid=US:en]</li><li>Salesforce confirms Agentforce is explicitly LLM-native and now offers an outcome-based Help Agent pricing model ("only charges for resolutions"), underlining pricing experiments we should watch. ✔["Agents use large language models ( LLMs ) to analyze" — https://www.salesforce.com/agentforce/] ✔["only charges for resolutions" — https://news.google.com/rss/search?q=Salesforce%20Agentforce&amp;hl=en-US&amp;gl=US&amp;ceid=US:en]</li><li>IQGeo publicly documents both capture-time visual validation (NetLux AI) and deterministic auto-design (Comsof), confirming a direct competitor stack we must differentiate from with LLM-based reasoning and dialogue. ✔["30,000+ field workers use NetLux AI" — https://www.iqgeo.com/products/netlux-ai] ✔["Reduce planning and design time by up to 90%" — https://www.iqgeo.com/products/comsof-fiber]</li><li>Netcracker continues to promote an open agentic platform with support for MCP/A2A standards — a validated blueprint for agent orchestration, observability, and per-agent ROI measurement. ✔["support for emerging standards such as Model Context Protocol (MCP) and Agent-to-Agent (A2A) Protocol." — https://www.netcracker.com/portfolio/products/netcracker-agentic-ai-solution]</li><li>Actionable: prioritize the LLM auto-design demo (NOW) and embed an enterprise AI catalog/governance (NEXT), while building capture-time visual validation (NOW) to match field parity.</li></ul>
+<h2>2. AI landscape</h2>
+
+<div class="table-wrap"><table><thead><tr><th>Vendor</th><th>AI level</th><th>Shipping today</th><th>Relevance to SUBJECT</th><th>Confirmed this run?</th></tr></thead><tbody><tr><td>ServiceNow</td><td>5/5 →</td><td>AI Agents platform and Control Tower features: ✔ ["AI Agents Take action with autonomous AI agents that work for you." — https://www.servicenow.com/products/ai-agents.html]; ✔ ["AI Passport and expanded governance capabilities" — https://news.google.com/rss/search?q=ServiceNow%20AI%20agents&amp;hl=en-US&amp;gl=US&amp;ceid=US:en]</td><td>Governance, agent packaging, Control Tower patterns we should copy for catalog + sales tooling</td><td>✔</td></tr><tr><td>Salesforce Agentforce</td><td>5/5 →</td><td>Agentforce is LLM-native and long-horizon; pricing experiments: ✔ ["Agents use large language models ( LLMs ) to analyze" — https://www.salesforce.com/agentforce/]; ✔ ["only charges for resolutions" — https://news.google.com/rss/search?q=Salesforce%20Agentforce&amp;hl=en-US&amp;gl=US&amp;ceid=US:en]</td><td>Hybrid-reasoning + HITL patterns; outcome-based pricing signal</td><td>✔</td></tr><tr><td>IQGeo</td><td>4/5 →</td><td>NetLux AI (visual validation): ✔ ["30,000+ field workers use NetLux AI" — https://www.iqgeo.com/products/netlux-ai]; ✔ ["20M field operations analyzed every year" — https://www.iqgeo.com/products/netlux-ai]; ✔ ["&lt;2 seconds to analyze a photo" — https://www.iqgeo.com/products/netlux-ai]; Comsof: ✔ ["Reduce planning and design time by up to 90%" — https://www.iqgeo.com/products/comsof-fiber]</td><td>Direct fiber competitor: capture-time VLM + deterministic auto-design; no public LLM design layer confirmed</td><td>✔</td></tr><tr><td>Netcracker</td><td>4/5 →</td><td>Agentic AI Solution: platform + ready agents + governance; ✔ ["support for emerging standards such as Model Context Protocol (MCP) and Agent-to-Agent (A2A) Protocol." — https://www.netcracker.com/portfolio/products/netcracker-agentic-ai-solution]</td><td>Agent catalog, MCP/A2A blueprint, observability/ROI metering to mirror</td><td>✔</td></tr><tr><td>Blue Planet (Ciena)</td><td>4/5 →</td><td>AI-driven network automation and configuration management: ✔ ["AI-Driven Configuration Management for Autonomous Networks" — https://news.google.com/rss/search?q=Ciena%20Blue%20Planet%20AI%20agent%20OR%20service%20assurance&amp;hl=en-US&amp;gl=US&amp;ceid=US:en]</td><td>Service-impact prediction / asset-agent extension</td><td>✔</td></tr><tr><td>Huawei iMaster NCE</td><td>4/5 →</td><td>Intent-driven NCE with AI engines and predictive maintenance: ✔ ["iMaster NCE is the “brain” of Huawei's Intent-Driven Network (IDN)." — https://e.huawei.com/en/products/network-management-and-analysis-software/imaster-nce]</td><td>Intent-driven automation / predictive maintenance pattern (closed-loop north star)</td><td>✔</td></tr><tr><td>Nokia Altiplano</td><td>4/5 →</td><td>Nokia shipping agentic AI across fixed-network platforms: ✔ ["Nokia launches agentic AI for home and broadband networks" — https://news.google.com/rss/search?q=Nokia%20Altiplano%20OR%20Nokia%20agentic%20AI%20fixed%20networks&amp;hl=en-US&amp;gl=US&amp;ceid=US:en]</td><td>Agentic fixed-network operations -&gt; relevance to fiber asset agents</td><td>✔</td></tr><tr><td>Bentley</td><td>3/5 →</td><td>ProjectWise: AI-enhanced search and instant summaries: ✔ ["AI-enhanced search deliver instant file summaries and insights" — https://www.bentley.com/software/projectwise/]</td><td>NL-query / Quick Action UX pattern and document-model interrogation</td><td>✔</td></tr><tr><td>Comarch</td><td>3/5 →</td><td>Push into autonomous networks and agentic OSS partnerships: ✔ ["Achieve level 4 autonomy with intent-driven networks" — https://www.comarch.com/telecommunications/] and recent agentic launch news (du).</td><td>Agentic OSS story / telco partnerships to mirror for operator go-to-market</td><td>✔</td></tr></tbody></table></div>
+<p>Score changes this run: none this run.</p>
+
+<h2>3. What changed this period</h2>
+<p>(Serviceable vendors only; DP -&gt; CP -&gt; SP, then Signals)</p>
+
+<p>ServiceNow: ServiceNow's public product pages and news feeds emphasize a governance/catalog expansion (AI Passport + Control Tower language). DP: ServiceNow now highlights an enterprise AI catalog/governance layer described as "AI Passport and expanded governance capabilities." CP: This strengthens ServiceNow's positioning as the enterprise control plane for many heterogeneous agents and a sales narrative linking governance to frontline adoption. SP: For Streamline, this validates adding an enterprise AI catalog and an "AI Passport" / governance surface in our orchestrator (Agent catalog + Control Tower) as a NEXT priority to aid enterprise sales and trust.  </p>
+<p>Signals: <a href="https://news.google.com/rss/search?q=ServiceNow%20AI%20agents&amp;hl=en-US&amp;gl=US&amp;ceid=US:en" target="_blank">"AI Passport and expanded governance capabilities"</a> ["AI Agents Take action with autonomous AI agents that work for you." — https://www.servicenow.com/products/ai-agents.html]</p>
+
+<p>Salesforce Agentforce: DP: Salesforce documentation explicitly states Agentforce agents are LLM-driven ("Agents use large language models ( LLMs ) to analyze") and the product news highlights outcome-based Help Agent pricing ("only charges for resolutions"). CP: Salesforce is doubling-down on hybrid LLM agents plus commercial experiments on outcome-based pricing — this legitimizes both LLM-first architectures and flexible pricing models for high-value agent actions. SP: Streamline should keep our design assistant hybrid (rules + LLM) and prototype simple outcome/pricing variants for pilot customers (NEXT), while ensuring per-action metering for monetization.  </p>
+<p>Signals: ["Agents use large language models ( LLMs ) to analyze" — https://www.salesforce.com/agentforce/] ["only charges for resolutions" — https://news.google.com/rss/search?q=Salesforce%20Agentforce&amp;hl=en-US&amp;gl=US&amp;ceid=US:en]</p>
+
+<p>IQGeo: DP: IQGeo's product pages confirm NetLux AI is a capture-time VLM with production scale ("30,000+ field workers", "20M field operations", "&lt;2 seconds to analyze a photo") and Comsof Fiber claims "Reduce planning and design time by up to 90%." CP: IQGeo now publicly owns both field visual validation and deterministic fiber auto-design in production — a consolidated M&amp;A-built stack. SP: This narrows our go-to-market: we must emphasize LLM-native design reasoning + map dialogue (our stated differentiator) and accelerate zero-shot VLM validation (NOW) to match their capture-time parity.  </p>
+<p>Signals: ["30,000+ field workers use NetLux AI" — https://www.iqgeo.com/products/netlux-ai] ["20M field operations analyzed every year" — https://www.iqgeo.com/products/netlux-ai] ["Reduce planning and design time by up to 90%" — https://www.iqgeo.com/products/comsof-fiber]</p>
+
+<p>Netcracker: DP: Netcracker's product page details an "Agentic AI Solution" that explicitly supports openness, ready agents, and standards including MCP and A2A. CP: Netcracker is validating the multi-agent orchestration, standards (MCP/A2A), and per-agent ROI/observability playbook as a telco reference architecture. SP: Streamline should treat MCP/A2A support and per-agent KPI metering (billing/consumption) as critical NEXT components for operator integrations and monetization.  </p>
+<p>Signals: ["support for emerging standards such as Model Context Protocol (MCP) and Agent-to-Agent (A2A) Protocol." — https://www.netcracker.com/portfolio/products/netcracker-agentic-ai-solution]</p>
+
+<p>Blue Planet (Ciena): DP: News coverage highlights Blue Planet shipping AI-driven configuration management for autonomous networks. CP: Blue Planet is maturing from diagnostics/assurance into configuration/change management — moving agentic capabilities into active change domains. SP: This reinforces our HITL status and stepwise closed-loop narrative: detect-&gt;recommend-&gt;approve-&gt;execute (LATER), and suggests a demo scenario: asset agent that surfaces affected services before a configuration change (LATER demo).  </p>
+<p>Signals: ["AI-Driven Configuration Management for Autonomous Networks" — https://news.google.com/rss/search?q=Ciena%20Blue%20Planet%20AI%20agent%20OR%20service%20assurance&amp;hl=en-US&amp;gl=US&amp;ceid=US:en]</p>
+
+<p>Huawei iMaster NCE: DP: Huawei's product page reiterates iMaster NCE is an intent-driven NCE with analysis/prediction engines ("iMaster NCE is the “brain” of Huawei's Intent-Driven Network (IDN)."). CP: Huawei continues to position intent-driven automation and predictive maintenance as core capabilities for enterprise and carrier networks. SP: Our product should maintain an intent-&gt;plan-&gt;HITL workflow language and ensure compatibility with NCE-style intent inputs when integrating with vendor NMS/OSS (LATER).  </p>
+<p>Signals: ["iMaster NCE is the “brain” of Huawei's Intent-Driven Network (IDN)." — https://e.huawei.com/en/products/network-management-and-analysis-software/imaster-nce]</p>
+
+<p>Nokia Altiplano: DP: Nokia news shows an active push of agentic AI across fixed and broadband platforms ("Nokia launches agentic AI for home and broadband networks"). CP: Nokia is embedding agentic AI into fixed/broadband stacks, expanding agentic use cases beyond core mobile networks. SP: This validates our emphasis on asset-centric agents (asset -&gt; service impact) for fiber networks and the competitive need to show HITL approval markers for field-executed ops.  </p>
+<p>Signals: ["Nokia launches agentic AI for home and broadband networks" — https://news.google.com/rss/search?q=Nokia%20Altiplano%20OR%20Nokia%20agentic%20AI%20fixed%20networks&amp;hl=en-US&amp;gl=US&amp;ceid=US:en]</p>
+
+<p>Bentley: DP: ProjectWise publicity confirms NL interrogation and AI-assisted summaries ("AI-enhanced search deliver instant file summaries and insights"). CP: Bentley’s success with NL-query across engineering records validates demand for embedded Quick Actions and conversational interrogation of the asset/data model. SP: Prioritize Quick Action + NL-query (NOW) and reuse the UX pattern of inline generation next to records.  </p>
+<p>Signals: ["AI-enhanced search deliver instant file summaries and insights" — https://www.bentley.com/software/projectwise/]</p>
+
+<p>Comarch: DP: Comarch marketing and recent press show active agentic OSS deployments and a push toward level-4 autonomy in network automation ("Achieve level 4 autonomy with intent-driven networks"). CP: Comarch is positioning agentic OSS for operator adoption (partnerships like du). SP: For Streamline this emphasizes operator sales narratives — readiness assessment and prioritized agent catalog will help demos and procurement conversations (NEXT).  </p>
+<p>Signals: ["Achieve level 4 autonomy with intent-driven networks" — https://www.comarch.com/telecommunications/] ["du and Comarch Communications Launch Agentic AI for OSS Network Operations" — https://news.google.com/rss/search?q=Comarch%20AI%20telecom%20OR%20agentic&amp;hl=en-US&amp;gl=US&amp;ceid=US:en]</p>
+
+<h2>4. What to steal — per vendor</h2>
+<p>(kept baseline items; add only new, source-backed patterns)</p>
+
+<ul><li>ServiceNow</li><li>Copy: Agent catalog + Control Tower + governance as primary GTM assets (baseline).</li><li>New (this run): consider an "AI Passport" enterprise identity/catalog surface to sell governance and reach frontline users. ✔ ["AI Passport and expanded governance capabilities" — https://news.google.com/rss/search?q=ServiceNow%20AI%20agents&amp;hl=en-US&amp;gl=US&amp;ceid=US:en]</li></ul>
+<ul><li>Salesforce</li><li>Copy: Hybrid reasoning (deterministic steps + LLM nuance) and explicit per-field HITL markers (baseline).</li><li>New (this run): test outcome-based pricing variants for high-value agents (inspired by Help Agent). ✔ ["only charges for resolutions" — https://news.google.com/rss/search?q=Salesforce%20Agentforce&amp;hl=en-US&amp;gl=US&amp;ceid=US:en]</li></ul>
+<ul><li>IQGeo</li><li>Copy: Capture-time photo validation loop (NetLux) + deterministic auto-design (Comsof) metrics (baseline confirmed). ✔ ["30,000+ field workers use NetLux AI" — https://www.iqgeo.com/products/netlux-ai] ✔ ["Reduce planning and design time by up to 90%" — https://www.iqgeo.com/products/comsof-fiber]</li></ul>
+<ul><li>Netcracker</li><li>Copy: Agent catalog + per-agent KPI/consumption dashboards; Trust Gateway/MCP pattern (baseline confirmed). ✔ ["support for emerging standards such as Model Context Protocol (MCP) and Agent-to-Agent (A2A) Protocol." — https://www.netcracker.com/portfolio/products/netcracker-agentic-ai-solution]</li></ul>
+<ul><li>Blue Planet / Huawei / Nokia</li><li>Copy: Service-impact prediction and closed-loop automation flows (baseline; Blue Planet and Huawei sources confirm configuration/intent pushes).</li></ul>
+<ul><li>Bentley</li><li>Copy: NL interrogation + instant doc summaries -&gt; Quick Action UX (baseline confirmed). ✔ ["AI-enhanced search deliver instant file summaries and insights" — https://www.bentley.com/software/projectwise/]</li></ul>
+<ul><li>Comarch</li><li>Copy: Agentic OSS go-to-market + operator partnerships (baseline confirmed). ✔ ["du and Comarch Communications Launch Agentic AI for OSS Network Operations" — https://news.google.com/rss/search?q=Comarch%20AI%20telecom%20OR%20agentic&amp;hl=en-US&amp;gl=US&amp;ceid=US:en]</li></ul>
+<h2>5. Standard UX kit (implement, don't invent)</h2>
+<p>(keep baseline list; append only where sources justify)</p>
+
+<ol><li>One visible assistant; orchestrator routes to hidden specialized agents. (baseline)</li><li>Context-aware quick actions on record/grid/map: "Ask", "Summarize", prefilled prompts attached to context. (baseline)</li><li>Agent transparency stream: agent narrates plan, user can stop/redirect mid-run. (baseline)</li><li>HITL statuses: AI fills -&gt; per-field AI markers -&gt; pending approval -&gt; approve/revert. (baseline)</li><li>Embedded generation next to the record, not in a separate tool. (baseline)</li><li>Agent catalog + per-agent KPI/consumption metering. (baseline)</li><li>Capture-time mobile validation (photo checked as taken). (baseline)</li><li>Consumption pricing per agent action: simple assist cheap, multi-step xN. (baseline)</li><li>Add: enterprise "AI Passport" / catalog + governance surfacing in the workspace (ServiceNow pattern). ✔ ["AI Passport and expanded governance capabilities" — https://news.google.com/rss/search?q=ServiceNow%20AI%20agents&amp;hl=en-US&amp;gl=US&amp;ceid=US:en]</li></ol>
+<h2>6. Backlog -&gt; slots</h2>
+<p>(carry forward baseline; no new feature rows required this run)</p>
+
+<div class="table-wrap"><table><thead><tr><th>Idea</th><th>Inspired by</th><th>Value</th><th>Slot</th></tr></thead><tbody><tr><td>LLM auto-design: optimize existing / from-zero for drawn polygon</td><td>None in fiber</td><td>Differentiator; demo wow</td><td>NOW</td></tr><tr><td>Quick Action + orchestrator + 2-3 global agents (record/grid/dashboard)</td><td>ServiceNow Otto, Bentley NL query</td><td>Platform foundation</td><td>NOW</td></tr><tr><td>Rollout Task Assistant: deadline/budget alerts, task updates via chat</td><td>ServiceNow proactive agents</td><td>Core demo scenario</td><td>NOW</td></tr><tr><td>Project Retrospective / executive insights</td><td>Enterprise SaaS standard</td><td>Easy win; exec appeal</td><td>NOW</td></tr><tr><td>Zero-shot image validation MVP (pole/trench/splice)</td><td>IQGeo visual AI (prod)</td><td>Parity w/o training data</td><td>NOW</td></tr><tr><td>Approval status + per-field AI markers</td><td>Salesforce HITL</td><td>Enterprise trust; unblocks autonomy</td><td>NEXT</td></tr><tr><td>Work-order generation from design (rules + LLM)</td><td>Render pipeline concept</td><td>Rollout ROI story</td><td>NEXT</td></tr><tr><td>Agent catalog + consumption metering + KPI dashboard</td><td>Netcracker, SNOW Control Tower</td><td>Monetization engine</td><td>NEXT</td></tr><tr><td>Service-impact prediction on assets</td><td>Blue Planet</td><td>Demo moment; asset agent ext.</td><td>LATER</td></tr><tr><td>Closed-loop self-healing (detect-&gt;approve-&gt;execute)</td><td>Huawei, Nokia</td><td>North star</td><td>LATER</td></tr><tr><td>Voice-to-work-order (mobile, speech-to-text -&gt; record update)</td><td>—</td><td>Field crew appeal</td><td>LATER</td></tr></tbody></table></div>
+<h2>7. Open questions / decisions</h2>
+<p>(maintain baseline items; add one created by sources)</p>
+
+<ol><li>Narrative: lead with LLM auto-design (differentiator) or agent platform (orchestrator + agents)? (baseline)</li><li>Image recognition: P1 now or park until a photo set exists? Owner for photo collection? (baseline)</li><li>Packaging: per-module agents vs platform bundle with consumption units? (baseline)</li><li>Adopt approval-status + AI-field-markers as the standard HITL pattern across all agents? (baseline)</li><li>Competitor slide per module: Design -&gt; IQGeo / Bentley / ServiceNow; Rollout -&gt; ServiceNow / Netcracker / Salesforce; Assets -&gt; IQGeo / Netcracker / Blue Planet. Agree/amend? (baseline)</li><li>New this run: given ServiceNow's "AI Passport" emphasis, do we prioritize a governance/catalog surface (sales/enterprise checklist) in NEXT sprint to accelerate operator procurement?</li></ol>
+<h2>8. Self-check &amp; verification</h2>
+
+<ul><li>Provisional facts (○) — baseline claims NOT re-confirmed by any source this period:</li><li>ServiceNow specifics from baseline that were not re-quoted here: "Otto (one AI across chat/voice/mobile/web); Agent Studio (NL agent build); Agent Advisor (ranks use cases, tests on real data pre-golive); MCP server exposing governed actions to external agents; consumption billing; Rolls-Royce 54% deflection" — ○</li><li>Salesforce baseline specifics not confirmed this run: "$2/conversation or $125-650/user/mo pricing" and "Trust Layer (masking, zero retention, audit)" — ○</li><li>Any baseline commercial metrics or customer deployment claims not quoted above remain provisional and are listed as ○ in the internal ledger.</li></ul>
+<ul><li>Empty / menu-only / errored sources:</li><li>None — all vendor product pages or news feeds in SOURCES returned usable content for quotation.</li></ul>
+<ul><li>Any ✔ you could not back with a clean quote:</li><li>None — every ✔ in this report is supported by a copied verbatim phrase (&lt;=15 words) and the exact SOURCE url shown inline.</li></ul>
+<ul><li>Watch next period (concrete verifications for the next run):</li></ul>  1. Search for explicit commercial LLM-native fiber auto-design agent launches or demos (confirm whether the fiber-design whitespace still holds).  
+<p>  2. Quantify Agentforce adoption/pricing traction (e.g., outcome-based pricing take rates or customer case studies).  </p>
+<p>  3. Track MCP / A2A uptake across operator OSS/BSS integrations (which operators/vendors publish support or deployments).</p>
+
+<hr>
+<em>Generated: 2026-11-09 07:24 UTC | Sources: vendor pages + Mistral Large | Streamline AI Competitive Scan v1.0</em>
+<hr>
+</div>
+</body>
+</html>
